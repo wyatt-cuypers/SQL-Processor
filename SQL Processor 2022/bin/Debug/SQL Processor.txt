@@ -1,0 +1,7 @@
+Server=CDI116
+Database=MiscDB
+User=leaktestuser
+Password=ygipkMNCPQsvPuRFAen9hw==
+Source Path=H:\Source Code\zurex-leak-tester\ZurexLeakTester\ZurexLeakTester\bin\Debug\Data
+Wait=12
+Delete After X Hours=5

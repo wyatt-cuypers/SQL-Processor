@@ -1,0 +1,132 @@
+﻿6/21/2022 2:34:48 PM - PROGRAM START
+6/21/2022 2:34:48 PM - Server Version: 15.00.2095
+6/21/2022 2:34:51 PM - .
+6/21/2022 2:34:51 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:51 PM - --- -2146232060 ---
+6/21/2022 2:34:51 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:51 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=0,@Step='Clamp1',@Seconds='0.00s',@Data1='0.0000',@Data2='0.0000',@Data3='0.0000',@Data4='0.0000'
+6/21/2022 2:34:51 PM - .
+6/21/2022 2:34:51 PM - .
+6/21/2022 2:34:51 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:51 PM - --- -2146232060 ---
+6/21/2022 2:34:51 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:51 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=1,@Step='Fill',@Seconds='1.40s',@Data1='0.0120',@Data2='0.0083',@Data3='0.0012',@Data4='0.0077'
+6/21/2022 2:34:51 PM - .
+6/21/2022 2:34:51 PM - .
+6/21/2022 2:34:51 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:51 PM - --- -2146232060 ---
+6/21/2022 2:34:51 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:51 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=2,@Step='Fill',@Seconds='1.30s',@Data1='0.0120',@Data2='0.0083',@Data3='0.0012',@Data4='0.0077'
+6/21/2022 2:34:51 PM - .
+6/21/2022 2:34:51 PM - .
+6/21/2022 2:34:51 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:51 PM - --- -2146232060 ---
+6/21/2022 2:34:51 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:51 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=3,@Step='Fill',@Seconds='1.20s',@Data1='0.0120',@Data2='0.0083',@Data3='0.0012',@Data4='0.0077'
+6/21/2022 2:34:51 PM - .
+6/21/2022 2:34:51 PM - .
+6/21/2022 2:34:51 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:51 PM - --- -2146232060 ---
+6/21/2022 2:34:51 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:51 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=4,@Step='Fill',@Seconds='1.10s',@Data1='0.0120',@Data2='0.0083',@Data3='0.0012',@Data4='0.0077'
+6/21/2022 2:34:51 PM - .
+6/21/2022 2:34:52 PM - .
+6/21/2022 2:34:52 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:52 PM - --- -2146232060 ---
+6/21/2022 2:34:52 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:52 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=5,@Step='Fill',@Seconds='1.00s',@Data1='0.0120',@Data2='0.0083',@Data3='0.0012',@Data4='0.0077'
+6/21/2022 2:34:52 PM - .
+6/21/2022 2:34:52 PM - .
+6/21/2022 2:34:52 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:52 PM - --- -2146232060 ---
+6/21/2022 2:34:52 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:52 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=6,@Step='Fill',@Seconds='0.90s',@Data1='0.0120',@Data2='0.0083',@Data3='0.0012',@Data4='0.0077'
+6/21/2022 2:34:52 PM - .
+6/21/2022 2:34:52 PM - .
+6/21/2022 2:34:52 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:52 PM - --- -2146232060 ---
+6/21/2022 2:34:52 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:52 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=7,@Step='Fill',@Seconds='0.80s',@Data1='0.0120',@Data2='0.0083',@Data3='0.0012',@Data4='0.0077'
+6/21/2022 2:34:52 PM - .
+6/21/2022 2:34:52 PM - .
+6/21/2022 2:34:52 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:52 PM - --- -2146232060 ---
+6/21/2022 2:34:52 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:52 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=8,@Step='Fill',@Seconds='0.70s',@Data1='0.0120',@Data2='0.0083',@Data3='0.0012',@Data4='0.0077'
+6/21/2022 2:34:52 PM - .
+6/21/2022 2:34:52 PM - .
+6/21/2022 2:34:52 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:52 PM - --- -2146232060 ---
+6/21/2022 2:34:52 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:52 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=9,@Step='Fill',@Seconds='0.60s',@Data1='0.0120',@Data2='0.0083',@Data3='0.0012',@Data4='0.0077'
+6/21/2022 2:34:52 PM - .
+6/21/2022 2:34:52 PM - .
+6/21/2022 2:34:52 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:52 PM - --- -2146232060 ---
+6/21/2022 2:34:52 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:52 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=10,@Step='Fill',@Seconds='0.50s',@Data1='0.0120',@Data2='0.0083',@Data3='0.0012',@Data4='0.0077'
+6/21/2022 2:34:52 PM - .
+6/21/2022 2:34:52 PM - .
+6/21/2022 2:34:52 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:52 PM - --- -2146232060 ---
+6/21/2022 2:34:52 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:52 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=11,@Step='Fill',@Seconds='0.40s',@Data1='0.0120',@Data2='0.0083',@Data3='0.0012',@Data4='0.0077'
+6/21/2022 2:34:52 PM - .
+6/21/2022 2:34:52 PM - .
+6/21/2022 2:34:52 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:52 PM - --- -2146232060 ---
+6/21/2022 2:34:52 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:52 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=12,@Step='Fill',@Seconds='0.30s',@Data1='0.0120',@Data2='0.0083',@Data3='0.0012',@Data4='0.0077'
+6/21/2022 2:34:52 PM - .
+6/21/2022 2:34:53 PM - .
+6/21/2022 2:34:53 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:53 PM - --- -2146232060 ---
+6/21/2022 2:34:53 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:53 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=13,@Step='Fill',@Seconds='0.20s',@Data1='0.0120',@Data2='0.0083',@Data3='0.0012',@Data4='0.0077'
+6/21/2022 2:34:53 PM - .
+6/21/2022 2:34:53 PM - .
+6/21/2022 2:34:53 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:53 PM - --- -2146232060 ---
+6/21/2022 2:34:53 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:53 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=14,@Step='Fill',@Seconds='0.10s',@Data1='0.0120',@Data2='0.0083',@Data3='0.0012',@Data4='0.0077'
+6/21/2022 2:34:53 PM - .
+6/21/2022 2:34:53 PM - .
+6/21/2022 2:34:53 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:53 PM - --- -2146232060 ---
+6/21/2022 2:34:53 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:53 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=15,@Step='Fill',@Seconds='0.00s',@Data1='0.0120',@Data2='0.0083',@Data3='0.0012',@Data4='0.0077'
+6/21/2022 2:34:53 PM - .
+6/21/2022 2:34:53 PM - .
+6/21/2022 2:34:53 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:53 PM - --- -2146232060 ---
+6/21/2022 2:34:53 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:53 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=16,@Step='Vent',@Seconds='0.40s',@Data1='0.0000',@Data2='0.0000',@Data3='0.0000',@Data4='0.0000'
+6/21/2022 2:34:53 PM - .
+6/21/2022 2:34:53 PM - .
+6/21/2022 2:34:53 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:53 PM - --- -2146232060 ---
+6/21/2022 2:34:53 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:53 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=17,@Step='Vent',@Seconds='0.30s',@Data1='0.0000',@Data2='0.0000',@Data3='0.0000',@Data4='0.0000'
+6/21/2022 2:34:53 PM - .
+6/21/2022 2:34:53 PM - .
+6/21/2022 2:34:53 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:53 PM - --- -2146232060 ---
+6/21/2022 2:34:53 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:53 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=18,@Step='Vent',@Seconds='0.20s',@Data1='0.0000',@Data2='0.0000',@Data3='0.0000',@Data4='0.0000'
+6/21/2022 2:34:53 PM - .
+6/21/2022 2:34:53 PM - .
+6/21/2022 2:34:53 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:53 PM - --- -2146232060 ---
+6/21/2022 2:34:53 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:53 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=19,@Step='Vent',@Seconds='0.10s',@Data1='0.0000',@Data2='0.0000',@Data3='0.0000',@Data4='0.0000'
+6/21/2022 2:34:53 PM - .
+6/21/2022 2:34:53 PM - .
+6/21/2022 2:34:54 PM - *** DB_Execute_Statement ***
+6/21/2022 2:34:54 PM - --- -2146232060 ---
+6/21/2022 2:34:54 PM - --- Could not find stored procedure 'up_LeakTterFullData_AddRec'. ---
+6/21/2022 2:34:54 PM - exec up_LeakTterFullData_AddRec @MachineID='1',@GMTTime='6/21/2022 7:34:22 PM',@LocalTime='6/21/2022 2:34:22 PM',@Seq=20,@Step='Vent',@Seconds='0.00s',@Data1='0.0000',@Data2='0.0000',@Data3='0.0000',@Data4='0.0000'
+6/21/2022 2:34:54 PM - .
+6/21/2022 2:35:09 PM - PROGRAM STOP - END
+6/30/2022 3:04:55 PM - PROGRAM START
+6/30/2022 3:04:56 PM - Server Version: 15.00.2095
+6/30/2022 3:05:03 PM - Server Version: 15.00.2095

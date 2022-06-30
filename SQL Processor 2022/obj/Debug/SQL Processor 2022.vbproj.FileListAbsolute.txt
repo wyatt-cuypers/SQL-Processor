@@ -1,0 +1,28 @@
+C:\Users\wlcuypers\Desktop\SQL Processor 2022\obj\Debug\SQL_Processor_2022.Resources.resources
+C:\Users\wlcuypers\Desktop\SQL Processor 2022\obj\Debug\SQL_Processor_2022.SetupForm.resources
+C:\Users\wlcuypers\Desktop\SQL Processor 2022\obj\Debug\SQL Processor 2022.vbproj.GenerateResource.cache
+C:\Users\wlcuypers\Desktop\SQL Processor 2022\obj\Debug\SQL Processor 2022.vbproj.CoreCompileInputs.cache
+C:\Users\wlcuypers\Desktop\SQL Processor 2022\obj\Debug\SQL_Processor_2022.MainForm.resources
+C:\Users\wlcuypers\Desktop\SQL Processor 2022\bin\Debug\SQL Processor 2022.exe.config
+C:\Users\wlcuypers\Desktop\SQL Processor 2022\bin\Debug\SQL Processor 2022.exe
+C:\Users\wlcuypers\Desktop\SQL Processor 2022\bin\Debug\SQL Processor 2022.pdb
+C:\Users\wlcuypers\Desktop\SQL Processor 2022\bin\Debug\SQL Processor 2022.xml
+C:\Users\wlcuypers\Desktop\SQL Processor 2022\obj\Debug\SQL Processor 2022.exe
+C:\Users\wlcuypers\Desktop\SQL Processor 2022\obj\Debug\SQL Processor 2022.xml
+C:\Users\wlcuypers\Desktop\SQL Processor 2022\obj\Debug\SQL Processor 2022.pdb
+C:\Users\wlcuypers\Desktop\SQL Processor 2022\obj\Debug\SQL Processor 2022.vbproj.AssemblyReference.cache
+C:\Users\wlcuypers\Desktop\SQL Processor 2022\obj\Debug\Interop.ADODB.dll
+C:\Users\wlcuypers\Desktop\SQL Processor 2022\obj\Debug\SQL Processor 2022.vbproj.ResolveComReference.cache
+H:\Source Code\sql-processor-2022\SQL Processor 2022\bin\Debug\SQL Processor 2022.exe.config
+H:\Source Code\sql-processor-2022\SQL Processor 2022\bin\Debug\SQL Processor 2022.exe
+H:\Source Code\sql-processor-2022\SQL Processor 2022\bin\Debug\SQL Processor 2022.pdb
+H:\Source Code\sql-processor-2022\SQL Processor 2022\bin\Debug\SQL Processor 2022.xml
+H:\Source Code\sql-processor-2022\SQL Processor 2022\obj\Debug\SQL_Processor_2022.frmMain.resources
+H:\Source Code\sql-processor-2022\SQL Processor 2022\obj\Debug\SQL_Processor_2022.Resources.resources
+H:\Source Code\sql-processor-2022\SQL Processor 2022\obj\Debug\SQL Processor 2022.vbproj.GenerateResource.cache
+H:\Source Code\sql-processor-2022\SQL Processor 2022\obj\Debug\SQL Processor 2022.vbproj.CoreCompileInputs.cache
+H:\Source Code\sql-processor-2022\SQL Processor 2022\obj\Debug\SQL Processor 2022.exe
+H:\Source Code\sql-processor-2022\SQL Processor 2022\obj\Debug\SQL Processor 2022.xml
+H:\Source Code\sql-processor-2022\SQL Processor 2022\obj\Debug\SQL Processor 2022.pdb
+H:\Source Code\sql-processor-2022\SQL Processor 2022\obj\Debug\SQL_Processor_2022.frmConnect.resources
+H:\Source Code\sql-processor-2022\SQL Processor 2022\obj\Debug\SQL Processor 2022.vbproj.AssemblyReference.cache
