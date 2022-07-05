@@ -38,18 +38,21 @@ Module mod1
 
     Sub Main()
         Load_From_INI()
+        'If settings do not exist, a form that is used to set/edit settings pops up
         If sDB_Database = "" Or sDB_SourcePath = "" Then
             frmConnect.Show()
         End If
         frmMain.iconTray.Icon = New Icon(Directory.GetCurrentDirectory() & "\NotOK1.ico")
     End Sub
 
+    'Creates a file with the parameter as the file path if the file doesn't already exist
     Public Sub makeFile(FileName As String)
         If File.Exists(FileName) = False Then
             File.Create(FileName)
         End If
     End Sub
 
+    'Reads the file, splits the contents up by newline characters and then stores each line in an array
     Public Function readOptions(optionsFile As String) As String()
         Dim options = File.ReadAllText(optionsFile)
         Dim optionsSplit As String() = options.Split(Environment.NewLine)
@@ -60,6 +63,7 @@ Module mod1
         Return optionsParameters
     End Function
 
+    'Closes current database connection
     Sub DB_Close()
         Try
             bDBConnected = False
@@ -71,6 +75,8 @@ Module mod1
         End Try
     End Sub
 
+    'Looks at the array, searches for a string that begins with the second parameter.
+    'If it finds the string, it then returns the part of the string that does not contain the parameter
     Public Function SearchArray(aStringArray As String(), sSearchString As String) As String
         Dim i As Integer
         Dim sReturn As String = ""
@@ -83,6 +89,7 @@ Module mod1
         Return sReturn
     End Function
 
+    'Adds an entry to the specified form's listbox control
     Public Sub Add_History_Entry(sMessage As String)
         Try
             frmMain.lstHistory.Items.Add(sMessage)
@@ -95,6 +102,7 @@ Module mod1
         End Try
     End Sub
 
+    'Writes to a specified file information about an error, if one occurs
     Public Sub Show_Error(bShowError As Boolean, sPassedlError As Long, sPassedErrorDesc As String, sPassedErrorHndl As String)
         Try
             My.Computer.FileSystem.WriteAllText(sLogFileName, Date.Now & " - *** " & sPassedErrorHndl & " ***" & Environment.NewLine, True)
@@ -108,6 +116,7 @@ Module mod1
         End Try
     End Sub
 
+    'Stores settings for connecting to a database in a specified file
     Public Sub Store_INI_Values()
         Try
             If Not sDB_Password = "" Then
@@ -125,6 +134,7 @@ Module mod1
         End Try
     End Sub
 
+    'Creates two folders if they do not already exist
     Sub Create_Processed_And_Reject_Folders()
         Try
             If Not Directory.Exists(sDB_SourcePath & "\" & PROCESSED_FOLDER) Then
@@ -142,6 +152,7 @@ Module mod1
         End Try
     End Sub
 
+    'Makes a connection to a database specified in the settings file or form
     Sub DB_Connect()
         Dim sTempErrorMessage As String = ""
         Try
@@ -171,6 +182,7 @@ Module mod1
         End Try
     End Sub
 
+    'Loads the current settings stored in a settings file
     Public Sub Load_From_INI()
         makeFile(sLogFileName)
         makeFile(sFullSETTINGSPath)
@@ -204,6 +216,7 @@ Module mod1
         End Try
     End Sub
 
+    'Takes in a SQL command and executes it as long as there are no errors
     Function DB_Execute_Statement(ByVal sPassedSQL As String, ByRef sPassedErrorMessage As String) As Long
         Dim objComm As New SqlCommand
         Try
@@ -241,6 +254,7 @@ Module mod1
         End Try
     End Function
 
+    'Looks at all of the files in the specified directory and orders them based on the time they were last modified
     Public Function Get_Ordered_Files(FilePattern As String) As Collection
         Dim ofsDir As String
         Dim colFiles As Collection, ofsAddedFile As String
@@ -280,6 +294,11 @@ Module mod1
         End Try
     End Function
 
+'Looks at the now-ordered files, ensures the title of the file is correctly formatted, and attempts to put them in a database
+'If the file is good, it is executed/logged into the database and then moved into the Processed folder
+'If the file is bad/has errors, it is not executed, marked as rejected, and moved into the Reject folder
+'Each entry, whether processed or rejected, is logged on the form's listbox with the date and time is was read
+'Each rejected file is documented in the program's log file
     Sub Process_Files()
         Dim lRowsBad As Long = 0
         Dim lRowsTotal As Long = 0
