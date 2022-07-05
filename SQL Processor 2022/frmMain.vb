@@ -10,31 +10,39 @@ Public Class frmMain
         iconTray.Visible = False
     End Sub
 
+    'Shows the settings form when the File/Setup button is clicked
     Private Sub SetupToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles mnuSetup.Click
         frmConnect.Show()
     End Sub
 
+    'Refreshes the status textbox
     Private Sub StatusTextBox_TextChanged(sender As Object, e As EventArgs) Handles txtStatus.TextChanged
         txtStatus.Refresh()
     End Sub
 
+    'Hides the main form when clicked
     Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles mnuExit.Click
         Me.Hide()
         iconTray.Visible = True
     End Sub
 
+    'Prevents the application from closing when the red x in the top right is clicked
+    'Continues to run in the background. Users can reopen the form by clicking the application icon
+    'in the "Show Hidden Icons" tray
     Private Sub MainForm_Close(sender As Object, e As FormClosingEventArgs) Handles MyBase.Closing
         Me.Hide()
         iconTray.Visible = True
         e.Cancel = True
     End Sub
 
+    'Opens the main form when the button is clicked
     Private Sub OpenWindowMenu_Click(sender As Object, e As EventArgs) Handles OpenWindowMenu.Click
         Me.WindowState = vbNormal
         iconTray.Visible = False
         Me.Show()
     End Sub
 
+    'Changes the last error textbox to visible and temporarily displays the error message
     Private Sub LastErrorTextBox_TextChanged(sender As Object, e As EventArgs) Handles txtLastError.TextChanged
         If txtLastError.Text = "" Then
             txtLastError.Visible = False
@@ -44,6 +52,8 @@ Public Class frmMain
         txtLastError.Refresh()
     End Sub
 
+    'The only way to actually close the application completely
+    'Users must double-click the countdown label 3 times in order for the application to quit
     Private Sub lblCountdown_DoubleClick(sender As Object, e As EventArgs) Handles lblCountdown.MouseDoubleClick
         Static clickCounter As Integer
         clickCounter += clickCounter + 1
@@ -53,6 +63,7 @@ Public Class frmMain
         End If
     End Sub
 
+    'Continually updates the database connection status
     Public Sub Set_DB_Connect_Disconnect_Display()
         Try
             If bDBConnected Then
@@ -78,6 +89,9 @@ Public Class frmMain
         End Try
     End Sub
 
+    'Executed every second
+    'After the number of seconds specified by the user in the settings form (or the default of 10),
+    'the Process_Files method is called, and the countdown timer is reset to the specified number of seconds
     Private Sub SecondsTimer_Tick(sender As Object, e As EventArgs) Handles tmrSecond.Tick
         Static nSecondCounter As Long '= nDelaySeconds
         Try
@@ -109,7 +123,10 @@ Public Class frmMain
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-
+    
+    'After x amount of hours determined by the user in the settings form (or the default of 24 hours), the timer looks
+    'every hour to see how old the files are in the Processed folder. If they are older than x hours, since they have 
+    'already been stored in the database, they are deleted. Each deletion is logged in the form's listbox 
     Private Sub DeleteTimer_Tick(sender As Object, e As EventArgs) Handles tmrDelete.Tick
         Static nDeleteCount As Integer = 0
         Dim objSec As New Stopwatch
